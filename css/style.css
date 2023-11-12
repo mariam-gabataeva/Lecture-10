@@ -124,7 +124,7 @@ h1 span{
     width: 100%;
     height: 48px;
     border-radius: 25px;
-    background: #D0D0D0;
+    background: white;
 }
 .search{
     max-width: 83px;
@@ -214,7 +214,7 @@ h2{
 }
 h3{
     color: var(--color-primary-black, #2D2D2D);
-    font-family: Inter;
+    font-family: 'Inter';
     font-size: 36px;
     font-style: normal;
     font-weight: 600;
@@ -222,7 +222,7 @@ h3{
 }
 .section-p{
     color: #000;
-    font-family: Inter;
+    font-family: 'Inter';
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -299,7 +299,7 @@ h4{
 .card5{
     max-width: 701px;
     width: 100%;
-    height: 387;
+    height: 387px;
     padding: 55px 52px;
 }
 .buttons{
@@ -388,7 +388,7 @@ h4{
 .box-coments{
     display: flex;
     column-gap: 32px;
-    max-width: 1312;
+    max-width: 1312px;
     width: 100%;
     height: 312px;
     margin: 80px 0px 48px;
@@ -428,7 +428,7 @@ h4{
 }
 h6{
     color: var(--color-primary-black, #2D2D2D);
-    font-family: Inter;
+    font-family: 'Inter';
     font-size: 18px;
     font-style: normal;
     font-weight: 500;
@@ -463,6 +463,10 @@ h6{
     padding: 112px 64px;
     margin-bottom: 14px;
 }
+form{
+    display: flex;
+    flex-direction: column;
+}
 .contact-left{
     display: flex;
     flex-direction: column;
@@ -472,7 +476,7 @@ h6{
 }
 .contact{
     color: var(--color-primary-black, #2D2D2D);
-    font-family: Inter;
+    font-family: 'Inter';
     font-size: 36px;
     font-style: normal;
     font-weight: 600;
@@ -481,7 +485,7 @@ h6{
 }
 .contact-p{
     color: var(--color-primary-black, #2D2D2D);
-    font-family: Inter;
+    font-family: 'Inter';
     font-size: 18px;
     font-style: normal;
     font-weight: 500;
@@ -496,6 +500,7 @@ h6{
     border: 1px solid var(--color-primary-black, #2D2D2D);
     background: var(--White, #FFF);
     margin: 8px 0px 24px;
+    padding: 12px;
 }
 .bird{
     display: flex;
@@ -506,7 +511,7 @@ h6{
 }
 .checkbox-p{
     color: var(--color-primary-black, #2D2D2D);
-    font-family: Inter;
+    font-family: 'Inter';
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -515,6 +520,10 @@ h6{
 }
 textarea{
     margin: 8px 0px 24px;
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid var(--color-primary-black, #2D2D2D);
+    background: var(--White, #FFF);
 }
 .submit{
     max-width: 138px;
@@ -541,14 +550,102 @@ footer{
 }
 .footer-up{
     display: flex;
-    column-gap: 24px;
+    justify-content: space-between;
     max-width: 1440px;
     width: 100%;
     height: 122px;
     margin: auto;
-
 }
-.line{
+.footer-up-left{
+    display: flex;
+    flex-direction: column;
+    gap: 42px;
+}
+.logo1{
+    color: var(--color-primary-light-grey, #F2F2F2);
+    font-family: 'Kufam';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+}
+.logo1-span{
+    color: var(--color-primary-light-grey, #F2F2F2);
+    font-family: 'Kufam';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+.links{
+    display: flex;
+    column-gap: 34px;
+}
+.footer-up-right{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    max-width: 400px;
+    width: 100%;
+    height: 122px;
+}
+.email-subscribe{
+    display: flex;
+    column-gap: 16px;
+    max-width: 400px;
+    width: 100%;
+    height: 48px;
+}
+.securiti{
+    color: var(--color-primary-light-grey, #F2F2F2);
+    font-family: 'Roboto';
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+.police{
+    color: var(--color-primary-light-grey, #F2F2F2);
+    font-family: 'Roboto';
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    text-decoration-line: underline;
+}
+.subscribe2{
+    max-width: 119px;
+    width: 100%;
+    height: 48px;
+    padding: 12px 24px;
+    border-radius: 5px;
+    border: 1px solid #F2F2F2;
+    color: #F2F2F2;
+    background: none;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+.email{
+    max-width: 265px;
+    width: 100%;
+    height: 48px;
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid var(--color-primary-light-grey, #F2F2F2);
+    background: var(--White, #FFF);
+}
+.footer-link{
+    color: var(--color-primary-light-grey, #F2F2F2);
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%; 
+}
+.line-long{
     max-width: 1440px;
     width: 100%;
     height: 1px;
@@ -569,7 +666,7 @@ footer{
 }
 .footer-p{
     color: var(--color-primary-light-grey, #F2F2F2);
-    font-family: Roboto;
+    font-family: 'Roboto';
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -577,7 +674,7 @@ footer{
 }
 .info-footer{
     color: var(--color-primary-light-grey, #F2F2F2);
-    font-family: Roboto;
+    font-family: 'Roboto';
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
