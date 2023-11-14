@@ -452,6 +452,7 @@ h6{
     border: 1px solid var(--color-primary-default, #4CAF4F);
     background: var(--color-primary-light-grey, #F2F2F2);
     padding: 10px;
+    cursor: pointer;
 }
 .icon-right{
     background-color: #4CAF4F;
@@ -504,6 +505,8 @@ form{
     background: var(--White, #FFF);
     margin: 8px 0px 24px;
     padding: 12px;
+    outline: none;
+    
 }
 .bird{
     display: flex;
@@ -527,6 +530,7 @@ textarea{
     border-radius: 5px;
     border: 1px solid var(--color-primary-black, #2D2D2D);
     background: var(--White, #FFF);
+    outline: none;
 }
 .submit{
     max-width: 138px;
@@ -537,6 +541,7 @@ textarea{
     border: 2px solid var(--color-primary-hover, #38813A);
     color: #38813A;
     padding: 8px 20px;
+    cursor: pointer;
 }
 .contact-right{
     width: 100%;
@@ -630,6 +635,7 @@ footer{
     font-style: normal;
     font-weight: 400;
     line-height: 150%;
+    cursor: pointer;
 }
 .email{
     max-width: 265px;
@@ -639,6 +645,7 @@ footer{
     border-radius: 5px;
     border: 1px solid var(--color-primary-light-grey, #F2F2F2);
     background: var(--White, #FFF);
+    outline: none;
 }
 .footer-link{
     color: var(--color-primary-light-grey, #F2F2F2);
